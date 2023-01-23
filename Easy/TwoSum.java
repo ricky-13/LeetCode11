@@ -19,16 +19,6 @@ public class TwoSum {
             solMap.put(nums[i], i );
         }
 
-
-//        for(int i = 0; i < nums.length; i++){
-//            for(int j = 0; j < nums.length; j++){
-//                if (nums[i] + nums[j] == target && i!=j){
-//                    solArray[0] = i;
-//                    solArray[1] = j;
-//                }
-//            }
-//        }
-
         return solArray;
     }
 
